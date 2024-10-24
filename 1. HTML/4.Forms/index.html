@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form for Timepass</h1>
+    <form action="/submit.php" method="post">
+        <div>    
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Name">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="female" >Female</label>
+            <input type="radio" id="female" name="Gender" value="female">
+        </div>
+        <div>
+            <input type="checkbox" id="chk" name="checkbox" value="yes">
+            <label for="chk">Subscribe Boi</label>
+        </div>
+        <div>
+            <label for="com">Comments</label>
+            <br>
+            <textarea name="comment" id="com" cols="30" rows="4" placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <div>
+            <select name="option" id="opt" >
+                <option value="fruits">Fruits</option>
+                <option value="vegitable">vegitable</option>
+                <option value="Chicken">chicken</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
